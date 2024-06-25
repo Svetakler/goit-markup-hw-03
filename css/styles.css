@@ -22,7 +22,7 @@ a {
 .logo-studio {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -47,8 +47,8 @@ a {
   color: #434455;
   font-style: normal;
 }
-.adress-list .link:hover,
-.adress-list .link:focus {
+.adress-list:hover,
+.adress-list:focus {
   color: #404bbf;
 }
 .main-section-text {
