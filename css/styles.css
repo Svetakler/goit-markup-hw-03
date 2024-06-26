@@ -19,6 +19,11 @@ a {
   line-height: 1.17;
   color: #4d5ae5;
 }
+.header-logo:hover,
+.header-logo:focus {
+  color: #404bbf;
+}
+
 .logo-studio {
   font-weight: 700;
   font-size: 18px;
@@ -26,9 +31,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-}
-.logo-studio:active {
-  color: #404bbf;
 }
 
 .header-menu-link {
@@ -38,8 +40,8 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-menu-item:hover,
-.header-menu-item:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 .adress-list-info {
