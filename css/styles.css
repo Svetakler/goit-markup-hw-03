@@ -44,17 +44,22 @@ a {
 .header-menu-link:focus {
   color: #404bbf;
 }
+address {
+  font-style: normal;
+}
 .adress-list-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
-.adress-list:hover,
-.adress-list:focus {
+.adress-list-info:hover,
+.adress-list-info:focus {
   color: #404bbf;
+}
+main {
+  background-color: #2e2f42;
 }
 .main-section-text {
   font-weight: 700;
