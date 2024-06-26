@@ -27,8 +27,7 @@ a {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.logo:hover,
-.logo:focus {
+.logo-studio:active {
   color: #404bbf;
 }
 
@@ -38,6 +37,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.header-menu-item:hover,
+.header-menu-item:focus {
+  color: #404bbf;
 }
 .adress-list-info {
   font-weight: 400;
@@ -141,6 +144,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-list {
+  background-color: #ffffff;
 }
 footer {
   background: #2e2f42;
