@@ -201,7 +201,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .specias-list {
@@ -280,15 +280,15 @@ address {
 /*--------------SECTION 4-------------------*/
 .portfolio-header {
   text-transform: capitalize;
-  background-color: #f4f4fd;
+
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.11;
-  color: #2e2f42;
+
   padding-top: 120px;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .portfolio-section {
@@ -318,6 +318,9 @@ address {
   row-gap: 48px;
   margin-right: 24px;
   margin-bottom: 48px;
+}
+.portfolio-name {
+  margin-bottom: 8px;
 }
 
 .portfolio-item {
