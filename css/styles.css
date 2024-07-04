@@ -4,12 +4,31 @@ body {
   background-color: #ffffff;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -21,6 +40,33 @@ a {
   padding: 0;
   white-space: nowrap;
   overflow: hidden;
+  padding-top: 120px;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-logo {
@@ -32,6 +78,8 @@ a {
   text-transform: uppercase;
   line-height: 1.17;
   color: #4d5ae5;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .header-logo:hover,
@@ -54,6 +102,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -63,6 +113,13 @@ a {
 
 address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .adress-list-info {
@@ -71,6 +128,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 
 .adress-list-info:hover,
@@ -85,12 +144,21 @@ address {
 .main-section-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.07;
   color: #fff;
   background-color: #2e2f42;
+
+  padding-bottom: 48px;
+  margin: 0 auto;
+}
+
+.container-one {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  text-align: center;
 }
 
 .button {
@@ -102,6 +170,11 @@ address {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .button:hover,
@@ -115,6 +188,19 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
+}
+
+.specias-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.specias-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .specias-text {
@@ -130,6 +216,7 @@ address {
 }
 
 .team-header {
+  display: block;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -138,10 +225,23 @@ address {
   text-align: center;
   color: #2e2f42;
   background-color: #f4f4fd;
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .team-item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+.team {
+  padding: 32px 0;
 }
 
 .team-name {
@@ -152,6 +252,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .team-text {
@@ -172,6 +273,8 @@ address {
   text-align: center;
   line-height: 1.11;
   color: #2e2f42;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .portfolio-name {
@@ -193,6 +296,9 @@ address {
 
 .portfolio-list {
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 24px 48px;
 }
 
 footer {
